@@ -1,0 +1,13 @@
+.contentPanel {
+  display: flex;
+}
+
+.contentPanel__leftSide {
+  width: 20%;
+  background-color: #a8ddff;
+}
+
+.contentPanel_rightSide {
+  width: 80%;
+  background-color: #edf8ff;
+}

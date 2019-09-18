@@ -13,3 +13,7 @@
 .header__links a {
   text-decoration: underline;
 }
+
+.header__logo {
+  max-width: 100%;
+}
