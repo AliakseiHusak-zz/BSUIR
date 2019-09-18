@@ -3,14 +3,14 @@
 }
 
 .leftBar__menuPanel {
-  border-bottom: 1px solid #0400b0;
+  border-bottom: 1px solid var(--second);
 }
 
 .leftBar__loginPanel input,
 .leftBar__loginPanel button {
   width: 5rem;
   margin-left: 1rem;
-  background-color: #edf8ff;
+  background-color: var(--main);
 }
 
 .leftBar__loginPanel {

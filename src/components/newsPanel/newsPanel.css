@@ -1,4 +1,9 @@
 .newsPanel {
-  flex-grow: 1;
-  min-width: 30%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.newsPanel__heading {
+  font-weight: bold;
 }
