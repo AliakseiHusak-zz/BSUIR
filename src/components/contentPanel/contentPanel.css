@@ -5,6 +5,7 @@
 .contentPanel__leftSide {
   width: 20%;
   background-color: #a8ddff;
+  background-repeat: repeat-y;
 }
 
 .contentPanel_rightSide {
