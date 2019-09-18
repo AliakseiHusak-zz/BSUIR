@@ -11,4 +11,19 @@
 .contentPanel_rightSide {
   width: 80%;
   background-color: #edf8ff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contentPanel_footNote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #0400b0;
+}
+
+.contentPanel_footNote p {
+  margin: 0 auto;
+  color: #0400b0;
+  background-color: white;
 }

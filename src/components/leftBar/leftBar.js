@@ -24,7 +24,17 @@ const LeftBar = () => {
       <div className="leftBar__menuPanel">
         <ul>{getMenuItems(menuItems)}</ul>
       </div>
-      <div className="leftBar__loginPanel"></div>
+      <div className="leftBar__loginPanel">
+        <div className="leftBar__loginPanel--left">
+          <label htmlFor="login">логин</label>
+          <label htmlFor="password">пароль</label>
+        </div>
+        <div className="leftBar__loginPanel--right">
+          <input id="login" />
+          <input id="password" type="password" />
+          <button>Войти</button>
+        </div>
+      </div>
     </>
   );
 };

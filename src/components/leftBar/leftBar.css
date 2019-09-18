@@ -5,3 +5,35 @@
 .leftBar__menuPanel {
   border-bottom: 1px solid #0400b0;
 }
+
+.leftBar__loginPanel input,
+.leftBar__loginPanel button {
+  width: 5rem;
+  margin-left: 1rem;
+  background-color: #edf8ff;
+}
+
+.leftBar__loginPanel {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.leftBar__loginPanel--right,
+.leftBar__loginPanel--left {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftBar__loginPanel--left {
+  margin-left: auto;
+}
+
+.leftBar__loginPanel--left label,
+.leftBar__loginPanel--right button,
+.leftBar__loginPanel--right input {
+  margin-bottom: 0.5rem;
+}
+
+.leftBar__loginPanel--right {
+  margin-right: auto;
+}
